@@ -53,6 +53,7 @@ F 0 "J1" H 1450 1495 50  0000 C CNN
 F 1 "BARREL_JACK" H 1450 1145 50  0000 C CNN
 F 2 "Connectors:BARREL_JACK" H 1450 1300 50  0001 C CNN
 F 3 "" H 1450 1300 50  0001 C CNN
+F 4 "2.1mm標準DCジャック" H 1450 1300 60  0001 C CNN "部品名"
 	1    1450 1300
 	1    0    0    -1  
 $EndComp
@@ -64,6 +65,7 @@ F 0 "C1" H 3325 1550 50  0000 L CNN
 F 1 "0.1u" H 3325 1350 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3338 1300 50  0001 C CNN
 F 3 "" H 3300 1450 50  0001 C CNN
+F 4 "積層セラミックコンデンサ 0.1μF" H 3300 1450 60  0001 C CNN "部品名"
 	1    3300 1450
 	1    0    0    -1  
 $EndComp
@@ -75,6 +77,7 @@ F 0 "C2" H 2075 1550 50  0000 L CNN
 F 1 "47u" H 2075 1350 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 2088 1300 50  0001 C CNN
 F 3 "" H 2050 1450 50  0001 C CNN
+F 4 "電解コンデンサ 47μF" H 2050 1450 60  0001 C CNN "部品名"
 	1    2050 1450
 	1    0    0    -1  
 $EndComp
@@ -86,6 +89,7 @@ F 0 "C3" H 2975 1550 50  0000 L CNN
 F 1 "47u" H 2975 1350 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 2988 1300 50  0001 C CNN
 F 3 "" H 2950 1450 50  0001 C CNN
+F 4 "電解コンデンサ 47μF" H 2950 1450 60  0001 C CNN "部品名"
 	1    2950 1450
 	1    0    0    -1  
 $EndComp
@@ -94,9 +98,10 @@ L 7805-RESCUE-ICB8xduino-328p U1
 U 1 1 5A0FB4AE
 P 2500 1250
 F 0 "U1" H 2650 1054 50  0000 C CNN
-F 1 "TM78M05F" H 2500 1450 50  0000 C CNN
+F 1 "TA78M05F" H 2500 1450 50  0000 C CNN
 F 2 "TO_SOT_Packages_THT:SIPAK-1EP_Horizontal" H 2500 1250 50  0001 C CNN
 F 3 "" H 2500 1250 50  0001 C CNN
+F 4 "三端子レギュレータ 5V0.5A" H 2500 1250 60  0001 C CNN "部品名"
 	1    2500 1250
 	1    0    0    -1  
 $EndComp
@@ -108,6 +113,7 @@ F 0 "JP1" H 2400 2500 50  0000 L CNN
 F 1 "PWR" H 2350 2700 50  0000 C BNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2350 2600 50  0001 C CNN
 F 3 "" H 2350 2600 50  0001 C CNN
+F 4 "2x3 2.54mmピッチ ピンヘッダ" H 2350 2600 60  0001 C CNN "部品名"
 	1    2350 2600
 	0    -1   -1   0   
 $EndComp
@@ -123,6 +129,7 @@ F 0 "J2" H 1300 2900 50  0000 C CNN
 F 1 "Serial" V 1400 2550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 1300 2550 50  0001 C CNN
 F 3 "" H 1300 2550 50  0001 C CNN
+F 4 "1x6 2.54mmピッチ ピンヘッダ(L型)" H 1300 2550 60  0001 C CNN "部品名"
 	1    1300 2550
 	-1   0    0    -1  
 $EndComp
@@ -144,6 +151,7 @@ F 0 "C7" H 5025 6500 50  0000 L CNN
 F 1 "0.1u" H 5025 6300 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5038 6250 50  0001 C CNN
 F 3 "" H 5000 6400 50  0001 C CNN
+F 4 "積層セラミックコンデンサ 0.1μF" H 5000 6400 60  0001 C CNN "部品名"
 	1    5000 6400
 	0    -1   -1   0   
 $EndComp
@@ -155,7 +163,7 @@ F 0 "R3" V 5330 6200 50  0000 C CNN
 F 1 "10k" V 5250 6200 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5180 6200 50  0001 C CNN
 F 3 "" H 5250 6200 50  0001 C CNN
-F 4 "炭素皮膜抵抗器 1/4W" V 5250 6200 60  0001 C CNN "部品名"
+F 4 "炭素皮膜抵抗器 10KΩ 1/4W (茶黒橙)" V 5250 6200 60  0001 C CNN "部品名"
 	1    5250 6200
 	1    0    0    -1  
 $EndComp
@@ -165,8 +173,9 @@ U 1 1 5A0FBC5A
 P 5250 6700
 F 0 "SW1" H 5300 6800 50  0000 L CNN
 F 1 "RESET" H 5250 6640 50  0000 C CNN
-F 2 "abtc:SW_PUSH_Single_6mm" H 5250 6900 50  0001 C CNN
+F 2 "ICB8xduino:SW_PUSH_Single_6mm" H 5250 6900 50  0001 C CNN
 F 3 "" H 5250 6900 50  0001 C CNN
+F 4 "タクトスイッチ" H 5250 6700 60  0001 C CNN "部品名"
 	1    5250 6700
 	0    -1   -1   0   
 $EndComp
@@ -184,7 +193,7 @@ F 0 "R1" V 3080 2850 50  0000 C CNN
 F 1 "10k" V 3000 2850 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2930 2850 50  0001 C CNN
 F 3 "" H 3000 2850 50  0001 C CNN
-F 4 "炭素皮膜抵抗器 1/4W" V 3000 2850 60  0001 C CNN "部品名"
+F 4 "炭素皮膜抵抗器 10KΩ 1/4W (茶黒橙)" V 3000 2850 60  0001 C CNN "部品名"
 	1    3000 2850
 	1    0    0    -1  
 $EndComp
@@ -196,6 +205,7 @@ F 0 "D1" H 3000 3300 50  0000 C CNN
 F 1 "RED" H 3000 3100 50  0000 C CNN
 F 2 "LEDs:LED_D3.0mm" H 3000 3200 50  0001 C CNN
 F 3 "" H 3000 3200 50  0001 C CNN
+F 4 "3mm LED(赤)" H 3000 3200 60  0001 C CNN "部品名"
 	1    3000 3200
 	0    -1   -1   0   
 $EndComp
@@ -207,6 +217,7 @@ F 0 "CONN1" H 5150 1800 50  0000 C CNN
 F 1 "1-7" V 5250 1350 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 5150 1350 50  0001 C CNN
 F 3 "" H 5150 1350 50  0001 C CNN
+F 4 "1x8 2.54mmピッチ ピンフレーム" H 5150 1350 60  0001 C CNN "部品名"
 	1    5150 1350
 	-1   0    0    -1  
 $EndComp
@@ -226,6 +237,7 @@ F 0 "CONN2" H 5150 2750 50  0000 C CNN
 F 1 "8-14" V 5250 2300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 5150 2300 50  0001 C CNN
 F 3 "" H 5150 2300 50  0001 C CNN
+F 4 "1x8 2.54mmピッチ ピンフレーム" H 5150 2300 60  0001 C CNN "部品名"
 	1    5150 2300
 	-1   0    0    -1  
 $EndComp
@@ -249,6 +261,7 @@ F 0 "CONN3" H 5150 3900 50  0000 C CNN
 F 1 "15-22" V 5250 3450 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 5150 3450 50  0001 C CNN
 F 3 "" H 5150 3450 50  0001 C CNN
+F 4 "1x8 2.54mmピッチ ピンフレーム" H 5150 3450 60  0001 C CNN "部品名"
 	1    5150 3450
 	-1   0    0    -1  
 $EndComp
@@ -272,6 +285,7 @@ F 0 "CONN4" H 5150 5150 50  0000 C CNN
 F 1 "23-28" V 5250 4700 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 5150 4700 50  0001 C CNN
 F 3 "" H 5150 4700 50  0001 C CNN
+F 4 "1x8 2.54mmピッチ ピンフレーム" H 5150 4700 60  0001 C CNN "部品名"
 	1    5150 4700
 	-1   0    0    -1  
 $EndComp
@@ -297,6 +311,7 @@ F 0 "C5" H 2525 5450 50  0000 L CNN
 F 1 "22p" H 2525 5250 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2538 5200 50  0001 C CNN
 F 3 "" H 2500 5350 50  0001 C CNN
+F 4 "積層セラミックコンデンサ 22pF" H 2500 5350 60  0001 C CNN "部品名"
 	1    2500 5350
 	1    0    0    -1  
 $EndComp
@@ -308,6 +323,7 @@ F 0 "C6" H 3025 5450 50  0000 L CNN
 F 1 "22p" H 3025 5250 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3038 5200 50  0001 C CNN
 F 3 "" H 3000 5350 50  0001 C CNN
+F 4 "積層セラミックコンデンサ 22pF" H 3000 5350 60  0001 C CNN "部品名"
 	1    3000 5350
 	1    0    0    -1  
 $EndComp
@@ -323,6 +339,7 @@ F 0 "C4" H 10325 3050 50  0000 L CNN
 F 1 "0.1u" H 10325 2850 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10338 2800 50  0001 C CNN
 F 3 "" H 10300 2950 50  0001 C CNN
+F 4 "積層セラミックコンデンサ 0.1μF" H 10300 2950 60  0001 C CNN "部品名"
 	1    10300 2950
 	1    0    0    -1  
 $EndComp
@@ -334,6 +351,7 @@ F 0 "C8" H 9875 3050 50  0000 L CNN
 F 1 "0.1u" H 9875 2850 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9888 2800 50  0001 C CNN
 F 3 "" H 9850 2950 50  0001 C CNN
+F 4 "積層セラミックコンデンサ 0.1μF" H 9850 2950 60  0001 C CNN "部品名"
 	1    9850 2950
 	1    0    0    -1  
 $EndComp
@@ -345,6 +363,7 @@ F 0 "U2" H 7500 4400 50  0000 L BNN
 F 1 "ATMEGA328-PU" H 8650 1750 50  0000 L BNN
 F 2 "Housings_DIP:DIP-28_W7.62mm_Socket" H 8250 3150 50  0001 C CIN
 F 3 "" H 8250 3150 50  0001 C CNN
+F 4 "ATMEGA328P-PU" H 8250 3150 60  0001 C CNN "部品名"
 	1    8250 3150
 	-1   0    0    -1  
 $EndComp
@@ -400,8 +419,9 @@ U 1 1 5A103ACE
 P 2750 4750
 F 0 "Y1" H 2750 4975 50  0000 C CNN
 F 1 "16MHz" H 2750 4900 50  0000 C CNN
-F 2 "abtc:Resonator__HC49-U_Vertical" H 2725 4750 50  0001 C CNN
+F 2 "ICB8xduino:Resonator__HC49-U_Vertical" H 2725 4750 50  0001 C CNN
 F 3 "" H 2725 4750 50  0001 C CNN
+F 4 "水晶振動子(16MHz)又はセラミック発振子(16MHz)" H 2750 4750 60  0001 C CNN "部品名"
 	1    2750 4750
 	1    0    0    -1  
 $EndComp
@@ -415,6 +435,7 @@ F 0 "CONN5" H 1250 5000 50  0000 C CNN
 F 1 "ICSP" H 1250 4600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1250 3600 50  0001 C CNN
 F 3 "" H 1250 3600 50  0001 C CNN
+F 4 "2x3 2.54mmピッチ ピンヘッダ" H 1250 4800 60  0001 C CNN "部品名"
 	1    1250 4800
 	1    0    0    -1  
 $EndComp
@@ -434,6 +455,7 @@ F 0 "C9" H 10625 2700 50  0000 L CNN
 F 1 "0.1u" H 10625 2500 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10638 2450 50  0001 C CNN
 F 3 "" H 10600 2600 50  0001 C CNN
+F 4 "積層セラミックコンデンサ 0.1μF" H 10600 2600 60  0001 C CNN "部品名"
 	1    10600 2600
 	1    0    0    -1  
 $EndComp
@@ -445,7 +467,7 @@ F 0 "R2" V 4130 3000 50  0000 C CNN
 F 1 "330" V 4050 3000 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3980 3000 50  0001 C CNN
 F 3 "" H 4050 3000 50  0001 C CNN
-F 4 "炭素皮膜抵抗器 1/4W" V 4050 3000 60  0001 C CNN "部品名"
+F 4 "炭素皮膜抵抗器 330Ω　1/4W (橙橙茶)" V 4050 3000 10  0001 C CNN "部品名"
 	1    4050 3000
 	1    0    0    -1  
 $EndComp
@@ -457,6 +479,7 @@ F 0 "D2" H 4050 3450 50  0000 C CNN
 F 1 "GREEN" H 4050 3250 50  0000 C CNN
 F 2 "LEDs:LED_D3.0mm" H 4050 3350 50  0001 C CNN
 F 3 "" H 4050 3350 50  0001 C CNN
+F 4 "3mm LED(緑)" H 4050 3350 60  0001 C CNN "部品名"
 	1    4050 3350
 	0    -1   -1   0   
 $EndComp
@@ -470,7 +493,7 @@ F 0 "R4" V 6580 3600 50  0000 C CNN
 F 1 "330" V 6500 3600 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6430 3600 50  0001 C CNN
 F 3 "" H 6500 3600 50  0001 C CNN
-F 4 "炭素皮膜抵抗器 1/4W" V 6500 3600 60  0001 C CNN "部品名"
+F 4 "炭素皮膜抵抗器 330Ω　1/4W (橙橙茶))" V 6500 3600 60  0001 C CNN "部品名"
 	1    6500 3600
 	0    1    1    0   
 $EndComp
@@ -482,7 +505,7 @@ F 0 "R5" V 6580 3750 50  0000 C CNN
 F 1 "330" V 6500 3750 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6430 3750 50  0001 C CNN
 F 3 "" H 6500 3750 50  0001 C CNN
-F 4 "炭素皮膜抵抗器 1/4W" V 6500 3750 60  0001 C CNN "部品名"
+F 4 "炭素皮膜抵抗器 330Ω　1/4W (橙橙茶)" V 6500 3750 60  0001 C CNN "部品名"
 	1    6500 3750
 	0    1    1    0   
 $EndComp
