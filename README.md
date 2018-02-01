@@ -1,6 +1,9 @@
 ICB8xduino-328p(kicadプロジェクト一式)
 ====
 
+![写真1](img/icb8xduino1.jpg)  
+![写真2](img/icb8xduino2.jpg)  
+
 ボードサイズをサンハヤト社製のICB-86,ICB-87のサイズに合わせたArduino互換基板です。
 Arduino上でハードウェアのプロトタイプ作成者向けのボードになります。
 
