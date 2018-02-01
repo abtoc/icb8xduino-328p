@@ -3,7 +3,7 @@
   (general
     (links 90)
     (no_connects 0)
-    (area 110.414999 36.754999 184.225001 85.165001)
+    (area 103.524999 31.59 198.35 85.165001)
     (thickness 1.6)
     (drawings 70)
     (tracks 508)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory garber/))
   )
 
   (net 0 "")
