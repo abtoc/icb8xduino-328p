@@ -31,18 +31,19 @@ Arduino上でハードウェアのプロトタイプ作成者向けのボード�
 ## 使用方法
 ### 内容について
 - kicadのプロジェクトファイル一式が入れられております
-- ガーバーデータは garberディレクトリ に格納しております  
-  |No. |ファイル名                   |種類                      |
-  |---:|:----------------------------|:-------------------------|
-  |1   |ICB8xduino-328p-F.Cu.gtl     |トップレイヤ              |
-  |2   |ICB8xduino-328p-B.Cu.gbl     |ボトムレイヤ              |
-  |3   |ICB8xduino-328p-F.Mask.gts   |表面ソルダレジスト        |
-  |4   |ICB8xduino-328p-B.Mask.gbs   |裏面ソルダレジスト        |
-  |5   |ICB8xduino-328p-F.SilkS.gto  |表面シルク                |
-  |6   |ICB8xduino-328p-B.SilkS.gbo  |裏面シルク                |
-  |7   |ICB8xduino-328p-Edge.Cuts.gm1|基板外形                  |
-  |8   |ICB8xduino-328p.drl          |スルーホール有ドリルデータ|
-  |9   |ICB8xduino-328p-NPTH.drl     |スルーホール無ドリルデータ|
+- ガーバーデータは garberディレクトリ に格納しております
+
+|No. |ファイル名                   |種類                      |
+|---:|:----------------------------|:-------------------------|
+|1   |ICB8xduino-328p-F.Cu.gtl     |トップレイヤ              |
+|2   |ICB8xduino-328p-B.Cu.gbl     |ボトムレイヤ              |
+|3   |ICB8xduino-328p-F.Mask.gts   |表面ソルダレジスト        |
+|4   |ICB8xduino-328p-B.Mask.gbs   |裏面ソルダレジスト        |
+|5   |ICB8xduino-328p-F.SilkS.gto  |表面シルク                |
+|6   |ICB8xduino-328p-B.SilkS.gbo  |裏面シルク                |
+|7   |ICB8xduino-328p-Edge.Cuts.gm1|基板外形                  |
+|8   |ICB8xduino-328p.drl          |スルーホール有ドリルデータ|
+|9   |ICB8xduino-328p-NPTH.drl     |スルーホール無ドリルデータ|
 
 ### [回路図](ICB8xduino-328p.pdf)
 
